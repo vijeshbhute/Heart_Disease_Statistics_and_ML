@@ -9,9 +9,9 @@ This project analyses cardiovascular disease dataset cotaining 12 features for 1
 The data was imported from Kaggle and can be found here: https://www.kaggle.com/datasets/jocelyndumlao/cardiovascular-disease-dataset/data
 
 ## MODEL 
-I have started by exploring the data for inaccuracies or anomalies. I identified couple issues in the dataset and performed data cleaning to select the patients with accurate information. 
-I next performed univariate statistical analysis to identify if there is any relationship between each feature and thet target. But, none of the single features explain the presence or absence of heart disease very well. 
-So, finally, I applied machine learning to develop models which can predict this with high accuracy. I performed feature selection to identify the most relevant features which lead to high accuracy using backward selection method. I compared various models and decided to go with Logistic regression model due to the relatively small size of dataset, model's high accuracy as well as interpretability. 
+I have started by exploring the data for inaccuracies or anomalies. I identified couple issues in the dataset and performed data cleaning to select the patients with accurate information. <BR>
+I next performed univariate statistical analysis to identify if there is any relationship between each feature and thet target. But, none of the single features explain the presence or absence of heart disease very well. <BR>
+So, finally, I applied machine learning to develop models which can predict this with high accuracy. I performed feature selection to identify the most relevant features which lead to high accuracy using backward selection method. I compared various models and decided to go with Logistic regression model due to the relatively small size of dataset, model's high accuracy as well as interpretability. <BR>
 After tuning hyperparameters, I also optimised the threshold for cut-off probability to further increase the prediction accuracy on the test set. 
 
 ## HYPERPARAMETER OPTIMSATION
