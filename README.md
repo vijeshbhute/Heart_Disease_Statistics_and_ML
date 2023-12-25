@@ -1,11 +1,7 @@
-# Heart_Disease_Statistics_and_ML
-Data exploration and statistics as well as predicting presence of heart disease on a dataset from India.
-
-# Data exploration, analysis and prediction of presence/absence of heart disease in patients
-
+# PROJECT TITLE
+Data exploration, analysis and prediction of presence/absence of heart disease in patients
 
 ## NON-TECHNICAL SUMMARY
-
 Heart disease is a leading cause of death worldwide. There are various tests which are used to diagnose heart disease (e.g., electrocardiogram (ECG)) which can give several measurements. This data can be used to predict with certain accuracy whether someone has heart disease or not. The prediction accuracy can be increased by incorporating more details such as gender, questionnaires, etc. This project aims to develop a prediction model which is also interpretable so that the predictions can be explained easily by clinicians. 
 
 ## DATA
@@ -24,6 +20,7 @@ Logistic regression has several hyperparameters including regularisation strengt
 ## RESULTS
 Feature selection identified 5 features (gender, chest pain, resting ECG result, oldpeak and slope) which can lead to high prediction accuracies. The best Logistic regression model is able to predict the presence/absence of heart disease with an accuracy of 94.81%. 
 
+## SUMMARY
 <ul>
     <li>Data exploration identified several individuals for whom serum cholesterol was 0. These individuals were excluded from analysis</li>
     <li>Data exploration also revealed several individuals for whom the slope was specified to be 0 which is not one of the possible choices. These individuals were also excluded from the analysis.</li>
