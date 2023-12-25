@@ -5,40 +5,36 @@ As far as you can, complete the model datasheet. If you have got the data from t
 ## Motivation
 
 - The dataset was collected to be able to detect early-stage heart disease as well as for generate predictive machine-learning models.
-- For what purpose was the dataset created? 
-- Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?
-
+- The dataset was contributed by Bhanu Prakash Doppala and Debnath Bhattacharyya on Mendeley and uploaded on Kaggle by Jocelyn Dumlao. 
+- There is no information about the specific hospital where the data was collected or who funded the data collection. 
  
 ## Composition
 
-- What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? 
-- How many instances of each type are there? 
-- Is there any missing data?
-- Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
+- The dataset comprises of some demographic information (age, gender), results from medical tests including blood samples (serum cholesterol levels, fasting blood sugar), resting blood pressure, maximum heart rate reached, exercise induced chest pain (angina), type of chest pain, results from electrocardiogram (resting ECG results, old peak, slope), number of major blood vessels.
+- There are 1000 patients in the dataset
+- There is no missing data but the entries have some anomalous data
+- The data doesn't contain information which will be considered confidential. 
 
 ## Collection process
 
-- How was the data acquired? 
-- If the data is a sample of a larger subset, what was the sampling strategy? 
-- Over what time frame was the data collected?
+- The data was collected from one of the multispecialty hospitals in India.
+- There is no information about the sampling strategy or the duration. 
 
 ## Preprocessing/cleaning/labelling
 
-- Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section. 
-- Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? 
+- Data was processed to create categories for various features based on medical information (e.g., category of pain, normal or abnormal levels of certain parameters, etc.).
+- There is no raw data available.
  
 ## Uses
 
-- What other tasks could the dataset be used for? 
-- Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms? 
-- Are there tasks for which the dataset should not be used? If so, please provide a description.
+- The dataset could be used to find features which are most associated with heart disease (e.g., univariate statistics). 
+- There are two features which have anomalous data. It is important to either get the accurate data if using them for modelling or to impute/exclude to avoid inaccuracies in future analyses. I have excluded them from my analysis.
 
 ## Distribution
 
-- How has the dataset already been distributed? 
-- Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?  
+- The dataset is distributed under CC0: Public Domain license.
 
 ## Maintenance
 
-- Who maintains the dataset?
+- Jocelyn Dumlao maintains the dataset on Kaggle. 
 
