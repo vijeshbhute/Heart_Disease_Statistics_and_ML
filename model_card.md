@@ -1,7 +1,3 @@
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
 # Model Card: Heart Disease prediction
 
 See the [example Google model cards](https://modelcards.withgoogle.com/model-reports) for inspiration. 
@@ -43,23 +39,20 @@ The five features are:
 
 **Output:** The model returns a classification result/probability of whether the individual/patient has heast disease or not. 
 
-**Model Architecture:** The probability of presence of heart disease is given by solving the following equation:  
-<br>
-$$\ln \Big(\frac{p}{1-p}\Big) = b_0 + b_1*scaled\_gender + b_2*scaled\_chestpain + b_3*scaled\_restingrelectro + b_4*scaled\_oldpeak + b_5*scaled\_slope$$
-
-$$ p = \frac{1}{1+exp(b_0 + b_1*scaled\_gender + b_2*scaled\_chestpain + b_3*scaled\_restingrelectro + b_4*scaled\_oldpeak + b_5*scaled\_slope)}$$
-
-where, $b_0 = 3.1856708$, $b_1 = 0.67344694, b_2=1.10716387,b_3=0.84976867,b_4=-1.28893841,b_5= 3.84886661$ <br><br>
-<b>*Please note that the features should be scaled prior to prediction using the same scaling factor which was derived from the training set.</b><br><br>
-If $p>0.51$ then the individual is likely to have heart disease. 
+**Model Architecture:** Logistic regression model is used with lbfgs solver and C = 0.7. 
 
 ## Performance
 
+The performance of the model was tested on training and test set split from the original dataset which can be found on Kaggle (https://www.kaggle.com/datasets/jocelyndumlao/cardiovascular-disease-dataset/data). 
 Give a summary graph or metrics of how the model performs. Remember to include how you are measuring the performance and what data you analysed it on. 
 
 ## Limitations
+<ul>
+  <li>The model uses a relatively small dataset (767 individuals after excluding those with anomalous entries).</li>
+  <li>The dataset is collected from one hospital in India and therefore, may not be applicable in other parts of the world. </li>
+</ul>
+ 
 
-Outline the limitations of your model.
 
 ## Trade-offs
 
