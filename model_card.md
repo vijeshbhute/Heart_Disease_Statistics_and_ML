@@ -43,16 +43,21 @@ The five features are:
 
 The performance of the model was tested on training and test set split from the original dataset which can be found on Kaggle (https://www.kaggle.com/datasets/jocelyndumlao/cardiovascular-disease-dataset/data). 
 
-![image info](./pictures/image.png)
+![Performance of the model shown by ROC curve on the training set](./images/ROC_curve_training_set.png)
+<br>
+Figure 1: Performance of the model shown by ROC curve on the training set (N = 613)
+<br>
+![Confusion matrix for test set classification using the model](./images/cm_test_set.png)
+<br>
+Figure 2: Confusion matrix for test set classification using the model (N = 154)
 
-Give a summary graph or metrics of how the model performs. Remember to include how you are measuring the performance and what data you analysed it on. 
 
 ## Limitations
 <ul>
   <li>The model uses a relatively small dataset (767 individuals after excluding those with anomalous entries).</li>
   <li>The dataset is collected from one hospital in India and therefore, may not be applicable in other parts of the world. </li>
-    A larger dataset collected from multi-centre study (hospitals in different locations) would be needed for wider applicability. 
 </ul>
+A larger dataset collected from multi-centre study (hospitals in different locations) would be needed for wider applicability. 
 
 ## Trade-offs
 
