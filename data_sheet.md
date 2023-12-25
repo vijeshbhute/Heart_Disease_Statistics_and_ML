@@ -4,6 +4,7 @@ As far as you can, complete the model datasheet. If you have got the data from t
 
 ## Motivation
 
+- The dataset was collected to be able to detect early-stage heart disease as well as for generate predictive machine-learning models.
 - For what purpose was the dataset created? 
 - Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?
 
