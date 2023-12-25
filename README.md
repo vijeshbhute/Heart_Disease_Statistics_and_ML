@@ -7,7 +7,7 @@ Heart disease is a leading cause of death worldwide. There are various tests whi
 ## DATA
 This project analyses cardiovascular disease dataset cotaining 12 features for 1000 patients from one of the multispecialty hospitals in India. The 12 features include information such as gender, resting BP, ECG results, etc. For each patient, the information about presence or absence of heart disease is provided in the last column called 'target'. 
 The data was imported from Kaggle and can be found here: https://www.kaggle.com/datasets/jocelyndumlao/cardiovascular-disease-dataset/data
-
+Citation for the data source: Doppala, Bhanu Prakash; Bhattacharyya, Debnath (2021), “Cardiovascular_Disease_Dataset”, Mendeley Data, V1, doi: 10.17632/dzz48mvjht.1
 ## MODEL 
 I have started by exploring the data for inaccuracies or anomalies. I identified couple issues in the dataset and performed data cleaning to select the patients with accurate information. <BR><BR>
 I next performed univariate statistical analysis to identify if there is any relationship between each feature and thet target. But, none of the single features explain the presence or absence of heart disease very well. <BR><BR>
