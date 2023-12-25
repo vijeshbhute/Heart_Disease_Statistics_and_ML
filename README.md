@@ -6,7 +6,9 @@ Heart disease is a leading cause of death worldwide. There are various tests whi
 <br><br>
 The final model uses just 5 parameters including type of chest pain, gender and 3 parameters are related to ECG. This is very interesting as this implies that other invasive tests such as blood test, exercise induced heart rate measurements, etc. are not needed to make good predictions! This can <b>lower the costs associated with these tests and minimise the discomfort for the patients. </b> 
 <br><br>
+You can find the code in notebooks folder and performance figures in images folder. The dataset used in this project can be found in input folder. <br><br>
 Owing to a relatively small data size, it will be important to perform additional testing on larger data sets or refine the model further for practical use.
+
 
 ## DATA
 This project analyses cardiovascular disease dataset cotaining 12 features for 1000 patients from one of the multispecialty hospitals in India. The 12 features include information such as gender, resting BP, ECG results, etc. For each patient, the information about presence or absence of heart disease is provided in the last column called 'target'. 
