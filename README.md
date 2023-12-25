@@ -2,7 +2,11 @@
 Data exploration, analysis and prediction of presence/absence of heart disease in patients
 
 ## NON-TECHNICAL SUMMARY
-Heart disease is a leading cause of death worldwide. There are various tests which are used to diagnose heart disease (e.g., electrocardiogram (ECG)) which can give several measurements. This data can be used to predict with certain accuracy whether someone has heart disease or not. The prediction accuracy can be increased by incorporating more details such as gender, questionnaires, etc. This project aims to develop a prediction model which is also interpretable so that the predictions can be explained easily by clinicians. 
+Heart disease is a leading cause of death worldwide. There are various tests which are used to diagnose heart disease (e.g., electrocardiogram (ECG)) which can give several measurements. This data can be used to predict with certain accuracy whether someone has heart disease or not. The prediction accuracy can be increased by incorporating more details such as gender, questionnaires, etc. This project aimed to develop a prediction model which is also interpretable so that the predictions can be explained easily by clinicians. 
+<br><br>
+The final model uses just 5 parameters including type of chest pain, gender and 3 parameters are related to ECG. This is very interesting as this implies that other invasive tests such as blood test, exercise induced heart rate measurements, etc. are not needed to make good predictions! This can <b>lower the costs associated with these tests and minimise the discomfort for the patients. </b> 
+<br><br>
+Owing to a relatively small data size, it will be important to perform additional testing on larger data sets or refine the model further for practical use.
 
 ## DATA
 This project analyses cardiovascular disease dataset cotaining 12 features for 1000 patients from one of the multispecialty hospitals in India. The 12 features include information such as gender, resting BP, ECG results, etc. For each patient, the information about presence or absence of heart disease is provided in the last column called 'target'. 
